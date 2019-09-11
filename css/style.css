@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #d3d3d3;
+    font-family: arial, verdana, sans-serif;
+}
+
+#header {
+    background-image: url(../imagens/bg-3.jpg);
+    height: 600px;
+    padding: 0px;
+    margin-top: 0px;
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+}
+
+#menu-header {
+    position: relative;
+    display: block;
+    top: 30px;
+    text-align: right;
+
+}
+
+#menu-header li {
+	display: inline-block; /* alinha os itens do li lado a lado*/
+    padding: 15px; /* margem dentro do objeto*/
+    background-color: #b9b2b280;
+    margin-right: 20px;    
+	text-transform: uppercase;
+    border: 1px solid #FFF;
+    letter-spacing: 1px; /*espaçamento entre letras*/
+
+}
+
+#menu-header a { /*formatar todos os ítens linkados dentro da ancora*/
+    color: #fff;
+    text-decoration-line: none;
+    transition: color 2s delay; /*tempo para mudança da cor referente ao:hover*/
+
+}
+
+#menu-header a:hover { /*altera quando o mouse é passado por cima*/
+	color: hsl(0, 2%, 54%); /*altera cor letra*/
+    text-decoration-line: none;/*inseri sublinhado na palavra / none retira sub e over inseri sub acima */
+    font-weight: bold;
+
+}
+
+#hero{
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 380px;
+    text-align: center;
+}
+
+#hero h1{
+    margin-top: 120px;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: white;
+    text-shadow: 3px 3 px 2px #333;
+}
+
+#hero p{
+    display: inline-block;
+    margin-top: 110px;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    border-bottom: #fff 2px solid;
+    background-color: rgb(0, 0, 0, 0.5)
+}
+
+main {
+    width: 100%;
+    margin: auto 30px; 
+    margin-top: 10px;
+    padding: 15px;
+    
+}
+
+#cards {
+    width: 91%;
+    margin: auto;
+}
+
+#cards div {
+    width: 33%;
+    float: left;
+    background-color: #fff;
+    padding:05px;
+}
+
+#cards img {
+    width: 100%;
+    padding:5px;
+}
+
+#cards p {
+    height: 30px;
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #333;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#section {
+    background-color: #fff;
+    width: 90%;
+    float: left;
+    margin: auto;
+    margin-left: 60px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+
+}
+#section h1 {
+    display: block;
+    height: 40px;
+    margin: 18px 40px 18px 40px;
+    padding: 05px 05px;
+    text-transform: lowercase;
+    background-color: #c9c6c6;
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom: 3px solid gray;
+}
+
+#section p {
+    margin: 05px 30px 05px 30px;
+    padding: 10px;
+    font-size:18px;
+    line-height: 1.5;
+}
+
+#rodape {
+    height: 80px;
+    background-color: #797676;
+    margin-top: 10px;
+    clear: both;
+}
+
+#rodape p {
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    text-shadow: #A0A0A0 0px 1px;
+    padding: 25px;
+}
+
